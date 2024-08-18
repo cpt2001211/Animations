@@ -1,0 +1,49 @@
+div{
+    line-height: 200px;
+    width: 200px;   
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    border: 2px solid;
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+
+}
+
+body{
+    border-radius: 50%;
+    background-color: rgb(67, 71, 80);
+}
+
+#box{
+    background-image: url(./media/images/bhagwanram.png);
+    background-position: center;
+    background-size: cover;
+    border: #f90606;
+    border-radius: 50%;
+    animation: animate 3s ease-in infinite;
+}
+
+
+
+@keyframes animate{
+    0%,20%,41%, 25%, 52%,  85%{ 
+        color:rgb(240, 10, 10);
+        box-shadow: none;
+        line-height: 170px;
+        width: 170px; 
+
+    }
+    10%,40%,50%,86%,100%{
+        color: rgb(234, 146, 175);
+        box-shadow: 0 0 10px 8px #ed7750,
+                    0 0 20px 20px #ee825bec,
+                    0 0 40px 25px #ef7331,
+                    0 0 60px 30px #ea9d74;
+                    line-height: 200px;
+                    width: 200px;            
+                     
+    }
+}
