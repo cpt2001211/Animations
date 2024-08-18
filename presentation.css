@@ -1,0 +1,99 @@
+
+/* 
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: arial;
+}
+
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #07252d;
+}
+
+h2{
+position: relative;
+font-size: xx-large;
+Letter-spacing: 15px;
+color: #0e3742;
+text-transform: uppercase;
+width: 100%;
+text-align: center;
+Line-height: 0.70em;
+outline: none;
+animation: animate 5s linear infinite;
+} 
+
+@keyframes animate
+{
+  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+{
+   color: #0e3742;
+   text-shadow: none;
+}
+
+    18.1%, 20.1%, 30%, 50%, 60.1%,65%, 80.1%, 90%, 92.1%, 100%
+{ 
+color:#fff;
+text-shadow: 0 0 10px,
+0 0 20px #03bcf4,
+0 0 40px #03bcf4,
+0 0 80px #03bcf4,
+0 0 100px #03bcf4;
+}
+}
+
+
+
+  }
+  background-image: url(https://www.mapsofindia.com/maps/india/india-flag-1280x768.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+*/
+h1{
+    font-size:300px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    animation: chandu 10s ease-in-out infinite;
+    font-weight: 900;
+    letter-spacing: 50px;
+    word-spacing: 30px;
+    transition: all ease 0.5s;
+    
+}
+  body{
+    background-image: linear-gradient(to right top, #3a3c3f, #2d2f36, #22222c, #191521, #130016);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: cover ;
+    
+  }
+
+  @keyframes chandu{
+    0%, 20%, 22%, 40%, 66%, 60.1%, 80%, 95.1%{ 
+        color:rgb(240, 10, 10);
+        text-shadow: none;
+        
+
+    }
+    20.1%, 40.1%, 55.1%, 60%, 82%, 80.1%, 96%{
+        color: rgb(234, 146, 175);
+        text-shadow: 0 0 10px rgb(237, 183, 213),
+                    0 0 20px rgb(208, 175, 236),
+                    0 0 40px rgb(237, 192, 66),
+                    0 0 60px rgb(236, 170, 222),
+                    0 0 80px rgb(243, 183, 237),
+                    0 0 85px rgb(219, 167, 211);
+                     
+    }
+}
